@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@repo/config": "workspace:*",
     "@repo/types": "workspace:*",
     "@repo/utils": "workspace:*",
     "next": "16.2.4",
