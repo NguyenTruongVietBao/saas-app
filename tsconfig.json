@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "CommonJS",
-    "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@repo/types": ["packages/types"],
-      "@repo/utils": ["packages/utils"],
-      "@repo/config": ["packages/config"]
+      "@repo/types": ["packages/types/index.ts"],
+      "@repo/utils": ["packages/utils/index.ts"],
+      "@repo/shared": ["packages/shared/index.ts"],
+      "@repo/database": ["packages/database/src/index.ts"]
     }
   }
 }
